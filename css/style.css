@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color:#3C3939;
+}
+
+#header-nav{
+	border-radius: 0;
+	border-spacing: 0;
+	border-width:5px;
+	border-color:#3C3939;
+	background-color:lightgrey;
+	margin:0;
+	padding:0;
+	
+	
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  color:#3C3939;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0px;
+  padding:0px;
+  
+		
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+  color: lightgray;
+  text-align: center;
+
+
+}
+#nav-list a:hover {
+  background-color:darkgrey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid lightgrey;
+	
+}
+
+button.navbar-toggle{
+	background-color:#3C3939;
+
+}
+.visible-xs{
+	background-color: #3C3939;
+	position: relative;
+	z-index: 1000;
+}
+
+#collapsable-nav{
+	position:relative;
+	z-index: 99;
+		}
+
+#nav-list{
+	height:auto;
+	overflow:hidden;
+}
+
+#page-head{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+h3{
+	
+	background-color: lightgrey;
+	margin: 20px;	
+	margin-bottom: 0;
+	
+}
+p{
+	background-color:lightgrey;
+	
+}
+h2{
+	color:lightgray;
+}
+
+#menu_chicken{
+	margin: 20px;	
+	margin-bottom: 0;
+	
+}
+
+#chicken_description{
+	text-align: justify;
+	margin:0 20px;
+	padding: 20px;
+	
+}
+
+#menu_beef{
+	margin: 20px;	
+	margin-bottom: 0;
+	
+}
+
+#beef_description{
+	text-align: justify;
+	margin:0 20px;
+	padding: 20px;
+}
+
+#menu_sushi{
+	margin: 20px;	
+	margin-bottom: 0;
+}
+
+#sushi_description{
+	text-align: justify;
+	margin:0 20px;
+	padding: 20px;
+}
+
+#main-content{
+	padding-top: 0;
+}
+
+
+@media (max-width:767px){
+	h1{
+	padding-top: 10px;
+    font-size: 5vw;
+	}
+
+
+	
+		
+}
