@@ -38,10 +38,7 @@ body {
 }
 
 #nav-list a {
-  color: lightgray;
-  text-align: center;
-
-
+  color: lightgrey;
 }
 #nav-list a:hover {
   background-color:darkgrey;
